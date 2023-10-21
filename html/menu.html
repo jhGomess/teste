@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/menu.css" />
+    <title>DevTech</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="../assets/poligono.svg" alt="poligono DevTech" />
+        <span>DevTech</span>
+      </div>
+      <div class="logout">
+        <span>administrador</span>
+        <a href="../index.html">
+          <p>sair</p>
+        </a>
+      </div>
+    </nav>
+
+    <main class="menu">
+      <h1>Menu</h1>
+
+      <div class="option">
+        <div class="title" onclick="f()">
+          <span class="name">Empresa</span>
+          <div class="arrow"></div>
+        </div>
+        <div class="dropdown">
+          <p>Cadastrar Empresa <span class="fa fa-inbox"></span></p>
+          <p>Consultar Empresa <span class="fa fa-gear"></span></p>
+        </div>
+      </div>
+
+      <div class="option">
+        <div class="title" onclick="q()">
+          <span class="name">Departamentos</span>
+          <div class="arrow2"></div>
+        </div>
+        <div class="drop">
+          <p>Cadastrar Departamentos <span class="fa fa-inbox"></span></p>
+          <p>Consultar Departamentos <span class="fa fa-gear"></span></p>
+        </div>
+      </div>
+
+      <div class="option">
+        <div class="title" onclick="w()">
+          <span class="name">Funcionários</span>
+          <div class="arrow3"></div>
+        </div>
+        <div class="func">
+          <p>Cadastrar Funcionários <span class="fa fa-inbox"></span></p>
+          <p>Consultar Funcionários <span class="fa fa-gear"></span></p>
+        </div>
+      </div>
+
+      <div class="option">
+        <div class="title" onclick="e()">
+          <span class="name">Folha de Pagamento</span>
+          <div class="arrow4"></div>
+        </div>
+        <div class="folha">
+          <p>Cálcular <span class="fa fa-inbox"></span></p>
+          <p>Controle de Ponto <span class="fa fa-gear"></span></p>
+        </div>
+      </div>
+
+      <div class="option">
+        <div class="title" onclick="j()">
+          <span class="name">Relatório/Holerite</span>
+          <div class="arrow5"></div>
+        </div>
+        <div class="rel">
+          <p>Emitir Relatório <span class="fa fa-inbox"></span></p>
+          <p>Emitir Holerite <span class="fa fa-gear"></span></p>
+        </div>
+      </div>
+
+      <div class="option">
+        <div class="title">
+          <span class="name">Ajuda</span>
+        </div>
+      </div>
+    </main>
+
+    <script src="../javascript/script.js"></script>
+  </body>
+</html>
