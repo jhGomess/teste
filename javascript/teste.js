@@ -4,7 +4,7 @@ function logar() {
 
   if (usuario == "admin" && senha == "admin") {
     alert("sucesso")
-    window.location = "../html/menu.html"
+    window.location.href = "https://jhgomess.github.io/teste/html/menu.html"
   } else {
     alert("usuario ou senha incorretos")
   }
